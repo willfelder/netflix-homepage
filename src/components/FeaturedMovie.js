@@ -16,20 +16,27 @@ export default ({item}) => {
             backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`
         }}>
             <div className="featured--vertical">
+
                 <div className="featured--horizontal">
+
                     <div className="featured--name">{item.original_name}</div>
+
                     <div className="featured--info">
-                        <div className="featured--points">{item.vote_average} pontos</div>
+                        <div className="featured--points">{item.vote_average} Match</div>
                         <div className="featured--year">{firstDate.getFullYear()}</div>
-                        <div className="featured--seasons">{item.number_of_seasons} temporada{item.number_of_seasons !== 1 ? 's' : ''}</div>
+                        <div className="featured--seasons">{item.number_of_seasons} Season{item.number_of_seasons !== 1 ? 's' : ''}</div>
                     </div>
+
                     <div className="featured--overview">{item.overview}</div>
+
                     <div className="featured--buttons">
-                       <a href={`/watch/${item.id}`}>► Watch</a>
-                       <a href={`/list/add/${item.id}`}>+ My List</a>
+                       <a href={`/watch/${item.id}`} className="featured--watchbutton">► Watch</a>
+                       <a href={`/list/add/${item.id}`} className="featured--mylistbutton">+ My List</a>
                     </div>
+
                     <div className="featured--genres"><strong>Gêneros: </strong>{genres.join(', ')}</div>
                 </div>
+
             </div>
         </section>
     )
