@@ -12,32 +12,32 @@ export default {
         return [
             {
                 slug: 'originals',
-                title: 'Originais do Netflix',
+                title: 'Popular on Netflix',
                 items: await basicFetch(`/discover/tv?with_network=213&language=en&api_key=${API_KEY}`)
             },
             {
                 slug: 'trending',
-                title: 'Recomendados para Você',
+                title: 'Trending Now',
                 items: await basicFetch(`/trending/all/week?language=en&api_key=${API_KEY}`)
             },
             {
                 slug: 'toprated',
-                title: 'Em Alta',
+                title: 'Top Rated Today',
                 items: await basicFetch(`/movie/top_rated?language=en&api_key=${API_KEY}`)
             },
             {
                 slug: 'action',
-                title: 'Ação',
+                title: 'Action',
                 items: await basicFetch(`/discover/movie?with_genres=28&language=en&api_key=${API_KEY}`)
             },
             {
                 slug: 'comedy',
-                title: 'Comédia',
+                title: 'Comedy',
                 items: await basicFetch(`/discover/movie?with_genres=35&language=en&api_key=${API_KEY}`)
             },
             {
                 slug: 'horror',
-                title: 'Terror',
+                title: 'Horror',
                 items: await basicFetch(`/discover/movie?with_genres=27&language=en&api_key=${API_KEY}`)
             },
             {
@@ -47,7 +47,7 @@ export default {
             },
             {
                 slug: 'documentary',
-                title: 'Documentário',
+                title: 'Documentary',
                 items: await basicFetch(`/discover/movie?with_genres=99&language=en&api_key=${API_KEY}`)
             }
         ]
