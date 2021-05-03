@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import NeflixLogo from '../images/netflixlogo.png';
-import Userlogo from '../images/userlogo.png'
+import NeflixLogo from '../../images/netflixlogo.png';
+import Userlogo from '../../images/userlogo.png';
 
 export default ({black}) => {
     return (
