@@ -1,6 +1,9 @@
 const API_KEY = '6292d742be89c435aebcb11824f20352';
 const API_BASE = 'https://api.themoviedb.org/3';
 
+/* The fetch is an interface for fetching resources 
+   Json file contains a complex data which have array up-to first and second level*/
+
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${API_BASE}${endpoint}`);
     const json = await req.json();
