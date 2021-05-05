@@ -4,7 +4,11 @@ import NeflixLogo from '../../images/netflixlogo.png';
 import Userlogo from '../../images/userlogo.png';
 
 export default ({black}) => {
+
     return (
+
+        // Those codes are returning the Netflix logo and the User Logo
+        
         <header className={black ? 'black' : ''}>
             <div className="header--logo">
                 <a href="#">

@@ -29,6 +29,9 @@ export default () => {
     loadAll();
   }, []);
 
+
+  // This useEffect is to appear the navbar when scroll the page
+  
   useEffect(() => {
     const scrowListener = () => {
       if(window.scrollY > 10){
