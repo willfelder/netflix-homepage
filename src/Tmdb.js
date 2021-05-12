@@ -5,13 +5,17 @@ const API_BASE = 'https://api.themoviedb.org/3';
    Json file contains a complex data which have array up-to first and second level*/
 
 const basicFetch = async (endpoint) => {
-    const req = await fetch(`${API_BASE}${endpoint}`);
-    const json = await req.json();
-      return json;
+
+const req = await fetch(`${API_BASE}${endpoint}`);
+const json = await req.json();
+return json;
+
 }
 
 export default {
+
     getHomeList: async () => {
+        
         return [
             {
                 slug: 'originals',

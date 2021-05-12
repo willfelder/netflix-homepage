@@ -50,6 +50,7 @@ export default () => {
   }, []);
 
   return (
+    
     <div className="page">
 
       <Header black={blackHeader} />
