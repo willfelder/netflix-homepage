@@ -87,31 +87,11 @@
     color: #999;
 }
 
-@media (max-witdh: 768px){
-    
-    .featured--name {
-        font-size: 20px;
-    }
+@media (max-width: 768px){
 
-    .featured--name {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    .featured--info {
-        font-size: 10px;
-    }
-    
     .featured--overview {
-        margin-top: 30px;
-        font-size: 10px;
-        color: #999;
+        font-size: 16px;
+        max-width: 80%;
     }
     
-    .featured--genres {
-        margin-top: 15px;
-        font-size: 16px;
-        color: #999;
-    }
-
 }
