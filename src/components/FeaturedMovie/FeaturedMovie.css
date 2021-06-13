@@ -87,26 +87,31 @@
     color: #999;
 }
 
-@media (max-witdh: 760px){
-    .featured {
-        height: 90vh;
-    }
+@media (max-witdh: 768px){
+    
     .featured--name {
-        font-size: 40px;
+        font-size: 20px;
     }
+
+    .featured--name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
     .featured--info {
-        font-size: 16px;
+        font-size: 10px;
     }
+    
     .featured--overview {
-        font-size: 14px;
-        max-width: 100%;
-        margin-right: 30px;
+        margin-top: 30px;
+        font-size: 10px;
+        color: #999;
     }
-    .featured--mylistbutton,
-    .featured--watchbutton {
-        font-size: 16px;
-    }
+    
     .featured--genres {
-        font-size: 14px;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #999;
     }
+
 }
