@@ -1,6 +1,5 @@
 ## Netflix Clone
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix logo" style="height: 100px; width:200px;"/>
+![netflix](https://user-images.githubusercontent.com/73253144/196391590-ec63793e-ce8d-4b6d-b50c-dfb0e738a7fc.png)
 
 ## Features
 - API call using TMDB API.
